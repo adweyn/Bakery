@@ -69,6 +69,14 @@ line-height: normal;
     padding-top: 33px;
     
 }
+.product-btn:hover {
+    
+    box-shadow: inset 0px 0px 4px black;
+}
+.header-btn:hover{
+background: #855832;
+box-shadow: inset 0px 0px 4px black;
+}
 
 .product-card{
 color: #FFF;
@@ -86,14 +94,17 @@ height: 225px;
    display: flex;
 
 width: 350px;
-background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 80.32%);
 background: #272727;
 
 
 }
+.product-card:hover{
+background: #EBAD51;
+}
 .card-text{
     display: flex;
     flex-direction: column;
+    
 }
 .price-product{
 color: #FFF;
@@ -103,6 +114,9 @@ color: #FFF;
     font-weight: 200;
     line-height: normal;
 display: flex;
+}
+.product-inf{
+    
 }
 .product-name{
 display: flex;
@@ -189,6 +203,10 @@ color: #FFF;
             justify-content: center;
             margin-top: 9px;
 }
+.menu-btn:hover{
+    background: #855832;
+        box-shadow: inset 0px 0px 4px black;
+}
 .menu{
     margin-top: 53px;
     background: #202023;
@@ -253,8 +271,9 @@ height: 250px;
 .quality-text{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
+   
+   margin-top: 100px;
+    
     
 }
 .quality-cards{
