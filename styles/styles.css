@@ -70,14 +70,15 @@ body{
     line-height: normal;
     height: 225px;
     width: 2000px;
+    display: flex;
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(81deg, #000 -110.34%, #272727 80.32%);
     
 }
 .product-card{
-    display: flex;
-    width: 350px;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(81deg, #000 -110.34%, #272727  80.32%);
+    
 }
 .product-card:hover{
   
