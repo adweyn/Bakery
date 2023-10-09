@@ -33,7 +33,7 @@ color: #FFF;
     padding-left: 160px;
 }
 body{
-    background: url("../images/breadintable.webp")no-repeat;
+    background: url("../src/images/breadintable.webp")no-repeat;
    background-size: 100vw;
    background-position-x: center;
   margin: 0;
@@ -70,18 +70,25 @@ body{
     line-height: normal;
     height: 225px;
     width: 2000px;
+    
 }
 .product-card{
     display: flex;
     width: 350px;
-    background: #272727;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(81deg, #000 -110.34%, #272727  80.32%);
 }
 .product-card:hover{
-    background: #EBAD51;
+  
+    background: linear-gradient(81deg, #000 -110.34%,#EBAD51 80.32%);
 }
 .card-text{
     display: flex;
     flex-direction: column;
+}
+.shos{
+    text-align: center;
 }
 .price-product{
     color: #FFF;
@@ -229,7 +236,7 @@ body{
     line-height: 15px;    
 }
 .quality{
-    background: #202023 url("../images/bgtext1.webp")no-repeat;
+    background: #202023 url("../src//images/bgtext1.webp")no-repeat;
     background-position-y: 170%;
     background-size: 100vw;
     height: 1030px;
@@ -271,8 +278,13 @@ body{
     gap: 200px;
     padding-top: 130px;
 }
+.tradiitional-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .traditional{
-    background: url("../images/gornyatkocoffe.webp")no-repeat;
+    background: url("../src/images/gornyatkocoffe.webp")no-repeat;
     background-size: 100%;
     height: 600px;
     padding-top: 1px;
