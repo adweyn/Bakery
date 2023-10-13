@@ -240,8 +240,8 @@ body{
     line-height: 15px;    
 }
 .quality{
-    background: #202023 url("../src//images/bgtext1.webp")no-repeat;
-    background-position-y: 170%;
+    
+    background: #202023;
     background-size: 100vw;
     height: 1030px;
     padding-top: 1px;
@@ -250,13 +250,21 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin: 0;
 }
 .quality-cards{
     display: flex;
-    width: 100vw;
+    
     justify-content: center;
     gap: 100px;
     box-sizing: border-box;
+    background: #202023 url("../src//images/bgtext1.webp")no-repeat;
+    
+    background-size: 100%;
+    background-position-y: 150px;
+}
+*{
+    
 }
 .quality-sticker{
     background: rgba(242, 242, 242, 0.30);
