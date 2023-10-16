@@ -152,7 +152,7 @@ body{
     box-sizing: border-box;
     column-gap: 200px;
     row-gap: 57px;
-    max-width: 1700px;
+    
 }
 .name-product{
     display: flex;
@@ -262,7 +262,7 @@ body{
     background: #202023 url("../src//images/bgtext1.webp")no-repeat;
     
     background-size: 100%;
-    background-position-y: 80px;
+    background-position-y: 106px;
 }
 *{
 }
